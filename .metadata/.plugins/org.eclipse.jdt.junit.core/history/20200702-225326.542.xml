@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="FreeCrmBDDFramework" tests="5" started="5" failures="0" errors="2" ignored="4">
+  <testsuite name="Runner.TestRunner" time="0.17">
+    <testsuite name="Feature: Free CRM Login Feature" time="0.17">
+      <testsuite name="Scenario: Free CRM Login Test Scenario" time="0.151" incomplete="true">
+        <error>java.lang.IllegalStateException: The driver executable does not exist: G:\Eclipse Worspace\chromedriver_win32\chromedriver&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#13;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at stepDefination.LoginStepDefination.user_is_already_on_login_page(LoginStepDefination.java:17)&#13;
+	at ✽.Given user is already on login page(login.feature:5)&#13;
+&#13;
+</error>
+        <testcase name="Given user is already on login page" classname="Scenario: Free CRM Login Test Scenario" time="0.15">
+          <error>java.lang.IllegalStateException: The driver executable does not exist: G:\Eclipse Worspace\chromedriver_win32\chromedriver&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#13;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at stepDefination.LoginStepDefination.user_is_already_on_login_page(LoginStepDefination.java:17)&#13;
+	at ✽.Given user is already on login page(login.feature:5)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When title of login page is Free CRM" classname="Scenario: Free CRM Login Test Scenario" time="0.0" ignored="true"/>
+        <testcase name="Then user enters username and password" classname="Scenario: Free CRM Login Test Scenario" time="0.0" ignored="true"/>
+        <testcase name="Then user clicks on login button" classname="Scenario: Free CRM Login Test Scenario" time="0.0" ignored="true"/>
+        <testcase name="And user is on login page" classname="Scenario: Free CRM Login Test Scenario" time="0.019" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

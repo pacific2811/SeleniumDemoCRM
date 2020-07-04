@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="FreeCrmBDDFramework" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="Runner.TestRunner" time="0.023">
+    <testsuite name="Feature: Free CRM Login Feature" time="0.023">
+      <testsuite name="Scenario: Free CRM Login Test Scenario" time="0.023">
+        <testcase name="Given user is already on login page" classname="Scenario: Free CRM Login Test Scenario" time="0.001"/>
+        <testcase name="When title of login page is Free CRM" classname="Scenario: Free CRM Login Test Scenario" time="0.0"/>
+        <testcase name="Then user enters username and password" classname="Scenario: Free CRM Login Test Scenario" time="0.0"/>
+        <testcase name="Then user clicks on login button" classname="Scenario: Free CRM Login Test Scenario" time="0.0"/>
+        <testcase name="And user is on login page" classname="Scenario: Free CRM Login Test Scenario" time="0.022"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

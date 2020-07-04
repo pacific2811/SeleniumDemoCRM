@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="FreeCrmBDDFramework" tests="5" started="5" failures="0" errors="2" ignored="3">
+  <testsuite name="Runner.TestRunner" time="1.244">
+    <testsuite name="Feature: Free CRM Login Feature" time="1.244">
+      <testsuite name="Scenario: Free CRM Login Test Scenario" time="1.164" incomplete="true">
+        <error>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://automationpractice.com/index.php?controller=my-account because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://automationpractice.com/index.php?controller=my-account' is not a valid XPath expression.
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CM1976N', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\richa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8b0a145ace7a68da3a319aa7ccf6a5d5
+*** Element info: {Using=xpath, value=http://automationpractice.com/index.php?controller=my-account}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;
+	at stepDefination.LoginStepDefination.title_of_login_page_is_Free_CRM(LoginStepDefination.java:34)&#13;
+	at ✽.When title of login page is Free CRM(login.feature:6)&#13;
+&#13;
+</error>
+        <testcase name="Given user is already on login page" classname="Scenario: Free CRM Login Test Scenario" time="1.105"/>
+        <testcase name="When title of login page is Free CRM" classname="Scenario: Free CRM Login Test Scenario" time="0.058">
+          <error>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression http://automationpractice.com/index.php?controller=my-account because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'http://automationpractice.com/index.php?controller=my-account' is not a valid XPath expression.
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CM1976N', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\richa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8b0a145ace7a68da3a319aa7ccf6a5d5
+*** Element info: {Using=xpath, value=http://automationpractice.com/index.php?controller=my-account}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;
+	at stepDefination.LoginStepDefination.title_of_login_page_is_Free_CRM(LoginStepDefination.java:34)&#13;
+	at ✽.When title of login page is Free CRM(login.feature:6)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Then user enters username and password" classname="Scenario: Free CRM Login Test Scenario" time="0.001" ignored="true"/>
+        <testcase name="Then user clicks on login button" classname="Scenario: Free CRM Login Test Scenario" time="0.0" ignored="true"/>
+        <testcase name="And user is on login page" classname="Scenario: Free CRM Login Test Scenario" time="0.063" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

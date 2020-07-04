@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="FreeCrmBDDFramework" tests="5" started="5" failures="2" errors="0" ignored="3">
+  <testsuite name="Runner.TestRunner" time="0.933">
+    <testsuite name="Feature: Free CRM Login Feature" time="0.933">
+      <testsuite name="Scenario: Free CRM Login Test Scenario" time="0.657" incomplete="true">
+        <failure>
+          <expected/>
+          <actual>Free CRM #1 cloud software for any business large or small</actual>org.junit.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[Free CRM #1 cloud software for any business large or small]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at stepDefination.LoginStepDefination.title_of_login_page_is_Free_CRM(LoginStepDefination.java:28)&#13;
+	at ✽.When title of login page is Free CRM(login.feature:6)&#13;
+&#13;
+</failure>
+        <testcase name="Given user is already on login page" classname="Scenario: Free CRM Login Test Scenario" time="0.311"/>
+        <testcase name="When title of login page is Free CRM" classname="Scenario: Free CRM Login Test Scenario" time="0.345">
+          <failure>
+            <expected/>
+            <actual>Free CRM #1 cloud software for any business large or small</actual>org.junit.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[Free CRM #1 cloud software for any business large or small]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at stepDefination.LoginStepDefination.title_of_login_page_is_Free_CRM(LoginStepDefination.java:28)&#13;
+	at ✽.When title of login page is Free CRM(login.feature:6)&#13;
+&#13;
+</failure>
+        </testcase>
+        <testcase name="Then user enters username and password" classname="Scenario: Free CRM Login Test Scenario" time="0.002" ignored="true"/>
+        <testcase name="Then user clicks on login button" classname="Scenario: Free CRM Login Test Scenario" time="0.001" ignored="true"/>
+        <testcase name="And user is on login page" classname="Scenario: Free CRM Login Test Scenario" time="0.165" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
