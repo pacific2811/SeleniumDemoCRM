@@ -22,24 +22,25 @@ public class LoginStepDefination {
 		System.setProperty("webdriver.chrome.driver", "G://Eclipse Worspace//chromedriver_win32//chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://automationpractice.com/index.php");
-		WebDriverWait wait=new WebDriverWait(driver,10);
+		WebDriverWait wait = new WebDriverWait(driver, 10);
 	}
 
 	@When("^title of login page is Free CRM$")
 	public void title_of_login_page_is_Free_CRM() {
-		
+
 		String title = driver.getTitle();
 		System.out.println(title);
-		Assert.assertEquals("My Store",title );
-		driver.findElement(By.xpath("//a[@href='http://automationpractice.com/index.php?controller=my-account']")).click();
+		Assert.assertEquals("My Store", title);
+		driver.findElement(By.xpath("//a[@href='http://automationpractice.com/index.php?controller=my-account']"))
+				.click();
 
 	}
 
 	@Then("^user enters username and password$")
 	public void user_enters_username_and_password() {
-		
+
 		driver.findElement(By.name("email")).sendKeys("dclick2811@gmail.com");
 		driver.findElement(By.name("passwd")).sendKeys("test@123");
 
@@ -47,16 +48,17 @@ public class LoginStepDefination {
 
 	@Then("^user clicks on login button$")
 	public void user_clicks_on_login_button() {
-		
-		WebElement loginbtn= driver.findElement(By.xpath("//button[@type='submit']"));
+
+		WebElement loginbtn = driver.findElement(By.xpath("//button[@id='SubmitLogin']"));
 		loginbtn.click();
-	
-	
+
 	}
 
-	@Then("^user is on login page$")
-	public void user_is_on_login_page() {
-
+	@Then("^user is on home page$")
+	public void user_is_on_home_page() {
+		String text = driver.findElement(By.xpath("//*[@id='header']/div[2]/div/div/nav/div[1]/a/span")).getText();
+		System.out.println(text);
+		Assert.assertEquals("P d click", text);
 	}
 
 }
